@@ -7,11 +7,12 @@ TagManager:
   - Fire
   - CinemachineTarget
   - Maneq
+  - "Ch\xE3o"
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Chao
   - Water
   - UI
   - 

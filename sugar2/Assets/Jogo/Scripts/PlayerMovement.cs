@@ -32,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
     private float currentSpeed;
     private float stepTimer;
     private bool isMoving;
-    
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -51,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
+        
         // Verifica se está no chão
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         

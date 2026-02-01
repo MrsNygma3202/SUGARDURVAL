@@ -209,10 +209,10 @@ MonoBehaviour:
   active: 1
   scanlinesWeight:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0
   noiseWeight:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.1
   screenBendX:
     m_OverrideState: 1
     m_Value: 3
@@ -221,13 +221,13 @@ MonoBehaviour:
     m_Value: 3
   vignetteAmount:
     m_OverrideState: 1
-    m_Value: 0.98
+    m_Value: 0
   vignetteSize:
     m_OverrideState: 1
-    m_Value: 2.06
+    m_Value: 0
   vignetteRounding:
     m_OverrideState: 1
-    m_Value: 5.26
+    m_Value: 1
   vignetteSmoothing:
     m_OverrideState: 1
     m_Value: 0.2
@@ -251,10 +251,10 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0}
   grilleOpacity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.1
   grilleCounterOpacity:
     m_OverrideState: 1
-    m_Value: 0.3
+    m_Value: 0.1
   grilleResolution:
     m_OverrideState: 1
     m_Value: 640
@@ -304,7 +304,7 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.5
   contrast:
     m_OverrideState: 1
     m_Value: 0
@@ -332,16 +332,16 @@ MonoBehaviour:
   active: 1
   fogDensity:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 2
   fogDistance:
     m_OverrideState: 1
     m_Value: 4.7
   fogColor:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    m_Value: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0}
   ambientColor:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    m_Value: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0}
   fogNear:
     m_OverrideState: 1
     m_Value: 0
@@ -445,13 +445,13 @@ MonoBehaviour:
     m_Value: 1
   ditherThreshold:
     m_OverrideState: 1
-    m_Value: 3.53
+    m_Value: 3.5
   ditherStrength:
     m_OverrideState: 1
-    m_Value: 1.37
+    m_Value: 1
   ditherScale:
     m_OverrideState: 1
-    m_Value: 4.67
+    m_Value: 1
 --- !u!114 &-3325865051281250649
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -596,13 +596,13 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.9
+    m_Value: 1
   intensity:
     m_OverrideState: 1
     m_Value: 0
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.79
   clamp:
     m_OverrideState: 1
     m_Value: 65472
@@ -973,13 +973,13 @@ MonoBehaviour:
   active: 1
   widthPixelation:
     m_OverrideState: 1
-    m_Value: 512
+    m_Value: 218
   heightPixelation:
     m_OverrideState: 1
-    m_Value: 256
+    m_Value: 218
   colorPrecision:
     m_OverrideState: 1
-    m_Value: 16
+    m_Value: 50
 --- !u!114 &3423374434016995029
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1122,7 +1122,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.02
   xMultiplier:
     m_OverrideState: 1
     m_Value: 1

@@ -1,3 +1,4 @@
+using DialogueEditor;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -24,6 +25,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float walkStepInterval = 0.5f;
     [SerializeField] private float runStepInterval = 0.3f;
     [SerializeField] private float stepVolume = 0.5f;
+
+    public NPCConversation DialogoNPC; // temp
+    public bool hasNPC;
     
     private CharacterController controller;
     private AudioSource audioSource;
@@ -50,6 +54,16 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E) && hasNPC)
+        {
+            ConversationManager.Instance.StartConversation(DialogoNPC);
+            hasNPC = false;
+            
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+        }
+        
         
         // Verifica se está no chão
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);

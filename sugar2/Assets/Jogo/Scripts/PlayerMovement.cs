@@ -1,5 +1,7 @@
 using DialogueEditor;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
+using UnityStandardAssets.Characters.FirstPerson;
 
 [RequireComponent(typeof(CharacterController))]
 [RequireComponent(typeof(AudioSource))]
@@ -54,14 +56,15 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
+        
+        //Iniciar Dialogo
         if (Input.GetKeyDown(KeyCode.E) && hasNPC)
         {
             ConversationManager.Instance.StartConversation(DialogoNPC);
             hasNPC = false;
             
-            Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-
+            Cursor.lockState = CursorLockMode.None;
         }
         
         

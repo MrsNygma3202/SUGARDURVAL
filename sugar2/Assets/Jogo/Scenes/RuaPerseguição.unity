@@ -1479,7 +1479,7 @@ MonoBehaviour:
   player: {fileID: 1924265596}
   playercam: {fileID: 2022876446}
   jumpscarecam: {fileID: 579028703}
-  aiSpeed: 6
+  aiSpeed: 10
   catchDistance: 2
   jumpscareTime: 1
   sceneAfterDeath: "RuaPersegui\xE7\xE3o"
@@ -11991,6 +11991,7 @@ GameObject:
   - component: {fileID: 1924265598}
   - component: {fileID: 1924265597}
   - component: {fileID: 1924265603}
+  - component: {fileID: 1924265604}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12294,6 +12295,21 @@ MonoBehaviour:
   fadeOutDuration: 0.5
   hideKey: 9
   canManuallyHide: 1
+--- !u!114 &1924265604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924265594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca5966bc3fc4b54ea59cb5136d27325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 241027222}
+  pushDepth: 3
+  speed: 2
 --- !u!1 &1929101332
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Jogo/Scenes/RuaPersegui\xE7\xE3o.unity"
     guid: 200a0e31d03e4ca4b97dfa60e32a4bb9
+  - enabled: 1
+    path: Assets/Jogo/Scenes/GameOver.unity
+    guid: eadfa5fb6e0411d46b08a5bad54b8133
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Jogo/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Jogo/Scenes/Menu.unity
+    guid: 96531360f47fc4742930894b642a45da
+  - enabled: 1
+    path: Assets/Jogo/Scenes/Rua.unity
+    guid: 91079fd3106d5e6429c57cbcc928d0bd
   - enabled: 1
     path: "Assets/Jogo/Scenes/RuaPersegui\xE7\xE3o.unity"
     guid: 200a0e31d03e4ca4b97dfa60e32a4bb9

@@ -21,7 +21,7 @@ TagManager:
   - Chao
   - Water
   - UI
-  - 
+  - Inimigo
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Inimigo
+    uniqueID: 2907393647
     locked: 0
   m_RenderingLayers:
   - Default

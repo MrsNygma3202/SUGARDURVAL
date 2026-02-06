@@ -1456,9 +1456,9 @@ GameObject:
   - component: {fileID: 241027225}
   - component: {fileID: 241027224}
   - component: {fileID: 241027223}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3705,14 +3705,14 @@ MonoBehaviour:
   volumeProfile: {fileID: 11400000, guid: 7bbe35cdf5d69e14abbb03eccedaa5bd, type: 2}
   isEnabled: 1
   fogDensity: 2
-  fogDistance: 4.7
+  fogDistance: 27
   fogNear: 0
   fogFar: 81.3
-  fogAltScale: 10
+  fogAltScale: 34.2
   fogThinning: 458
   noiseScale: 843
   noiseStrength: 0.029
-  fogColor: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0}
+  fogColor: {r: 1, g: 1, b: 1, a: 0}
   ambientColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!4 &626254481
 Transform:
@@ -11992,6 +11992,7 @@ GameObject:
   - component: {fileID: 1924265597}
   - component: {fileID: 1924265603}
   - component: {fileID: 1924265604}
+  - component: {fileID: 1924265605}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12310,6 +12311,23 @@ MonoBehaviour:
   enemy: {fileID: 241027222}
   pushDepth: 3
   speed: 2
+--- !u!114 &1924265605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924265594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc0eaaad7078f544aa513e79324e03d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanciaEmpurrao: 1.5
+  forcaEmpurrao: 3
+  layerInimigo:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1929101332
 GameObject:
   m_ObjectHideFlags: 0

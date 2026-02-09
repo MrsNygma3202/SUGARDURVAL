@@ -15,6 +15,7 @@ TagManager:
   - Passagem
   - follow
   - F
+  - V
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Water
   - UI
   - Inimigo
-  - 
+  - Player
   - 
   - 
   - 
